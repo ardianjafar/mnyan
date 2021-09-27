@@ -71,3 +71,13 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+// popup
+
+document.getElementById("button").addEventListener("click", function(){
+  document.querySelector(".popup").style.display = "flex";
+});
+
+document.querySelector(".close").addEventListener("click", function(){
+  document.querySelector(".popup").style.display = "none";
+});
